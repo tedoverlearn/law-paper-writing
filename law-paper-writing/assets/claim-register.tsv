@@ -1,0 +1,3 @@
+id	claim	location	depends_on	sources	decision
+C01	会议纪要记载六条意见被转交专项预算程序	v1 第二节第 3 段		S01@第3页	confirmed
+C02	材料记录的意见去向包括转交专项预算程序	v1 摘要第 2 句、第三节首段	C01		provisional

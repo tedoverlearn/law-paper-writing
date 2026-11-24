@@ -1,0 +1,4 @@
+interface:
+  display_name: "中文人文社科论文写作"
+  short_description: "协助论文研究设计、论证、修订与引注核验"
+  default_prompt: "用 $law-paper-writing 处理我指定的论文环节，保留作者立场并标明关键依据。"

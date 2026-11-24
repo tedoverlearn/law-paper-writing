@@ -1,0 +1,41 @@
+# 中文人文社科论文写作 Skill
+
+`law-paper-writing` 是一套中文学术写作 Skill。它可以从研究问题进入，也可以单独审查贡献、论证、案例可比性和脚注。法学部分重视法源效力、个案的证明范围和引注位置，文史、哲学与社会科学研究可以调用各自的方法说明。
+
+当前版本 **v0.4.2** · [下载 ZIP 安装包](https://github.com/tedoverlearn/law-paper-writing/releases/download/v0.4.2/law-paper-writing-v0.4.2.zip) · [查看 Skill 入口](law-paper-writing/SKILL.md)
+
+## 安装
+
+1. 下载并解压 ZIP，得到 `law-paper-writing` 目录。
+2. 将该目录放到项目根目录的 `.agents/skills/`。如果想在本机多个项目使用，可以放到用户主目录的 `.agents/skills/`。保留 Skill 内部目录结构。
+3. 在 Codex 输入 `$law-paper-writing`，说明你要处理的材料和环节。
+
+[Codex 官方安装位置说明](https://learn.chatgpt.com/docs/build-skills#where-codex-loads-local-skills)
+
+## 使用示例
+
+> 用 $law-paper-writing 审查引言的研究贡献。根据附上的三篇文章，说明哪篇最接近本文、差别发生在哪个论证环节，以及现有材料支持什么表述。
+
+> 用 $law-paper-writing 核对脚注 12 至 18。逐条核对版本、页码和正文归因，指出有待取得的原始材料。
+
+> 用 $law-paper-writing 润色这一节。删掉只用于预防质疑的句子，保留会改变结论范围的条件、作者判断和脚注落点。
+
+## 主要功能
+
+- **研究设计与贡献。** 比较最接近的研究，给出可检验的增量、二级提纲和各节所需证据。
+- **分析与写作。** 按法学解释、文史细读、哲学论证或社会科学方法推进。遇到反例时，定位它影响的前提或推论。
+- **引注核验与返修。** 把关键主张对应到来源版本和原文位置。材料变化时，可用主张表查找受影响的段落。
+
+[研究方法](law-paper-writing/references/methods.md) · [来源与引注](law-paper-writing/references/sources-and-citations.md) · [论证审查](law-paper-writing/references/argument-and-review.md) · [主张复查](law-paper-writing/references/evidence-maintenance.md)
+
+## 检查与打包
+
+在仓库根目录用 Python 3.10 或更新版本运行。
+
+```sh
+python law-paper-writing/scripts/build_release.py --check
+python law-paper-writing/scripts/build_release.py --output law-paper-writing.zip
+python -B law-paper-writing/evaluations/test_build_release.py -v
+python -B law-paper-writing/evaluations/test_claim_register.py -v
+```
+
