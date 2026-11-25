@@ -36,6 +36,7 @@ RUNTIME_FILES = (
     "references/text-and-history.md",
     "references/theory-and-normative-argument.md",
     "references/workflow.md",
+    "references/writing-workshop.md",
     "scripts/audit_docx_footnotes.py",
     "scripts/check_claim_register.py",
     "scripts/check_manuscript.py",

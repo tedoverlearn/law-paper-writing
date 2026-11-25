@@ -2,7 +2,7 @@
 name: law-paper-writing
 description: 协助中文人文社科论文选题、综述、论证、写作、引注核验与返修，按法学、文史阐释、哲学论证及社会科学研究选择方法。用于期刊稿、学位论文、开题、书评和学术案例评析，也可单独审查论证、润色或核注。
 metadata:
-  version: "0.4.5"
+  version: "0.4.6"
 ---
 
 # 中文人文社科论文写作
@@ -34,9 +34,10 @@ metadata:
 | 访谈、田野、质性或混合方法论文 | [质性与混合方法](references/qualitative-and-mixed-methods.md) | 材料分析、主题形成、方法适配与整合判断 |
 | 用案件或史料解释规则怎样形成、改变或获得承认 | [用案例解释制度变迁](references/institutional-history.md) | 情境、可选行动、后续实践与各步证据 |
 | 检索、核验规范、核对脚注、整理来源 | [资料与引注核验](references/sources-and-citations.md)，需要时查[引注体例](references/citation-profiles.md) | 来源记录、法源核验或脚注问题表 |
-| 构建论证、审稿、润色、检查反例 | [论证与质量审查](references/argument-and-review.md) | 论证表、修订稿、问题清单 |
+| 构建论证、审稿、检查反例，或复核中文表达与材料是否相称 | [论证与质量审查](references/argument-and-review.md) | 论证表、问题清单与审查意见 |
+| 起草、重写或润色指定段落，需要引言、文献对话、案例、教义论证、反例回应或结语的示范 | [中文写作工艺](references/writing-workshop.md) | 指定的正文段落，按要求附改写理由 |
 | 交付、投稿前查关键命题、引注和结论强度 | [交付前硬门禁](references/argument-and-review.md#交付前硬门禁) · [稿件扫描](scripts/check_manuscript.py) | 门禁核验记录、带稿件位置的待核清单 |
-| 起草或修订论证段，处理限定、让步与主张句 | [主张与必要限定](references/claims-and-qualifications.md) | 主张清楚、限定有据的正文 |
+| 逐句判断限定、让步和缓冲是否有实质作用 | [主张与必要限定](references/claims-and-qualifications.md) | 保留必要限定的主张句 |
 | 检查全文结构、跨章节衔接或大幅压缩 | [长文修订](references/long-form-revision.md) | 反向提纲、概念及主张核对、指定范围的改稿 |
 | 依据、反例或已确认主张变动，需要复查长稿 | [主张与依据变化后的复查](references/evidence-maintenance.md) | 直接受影响的判断及后续复查位置 |
 | 投稿、返修、答辩或会议展示 | [投稿、返修与展示](references/publication.md) | 指定提交材料、返修说明或展示稿 |
