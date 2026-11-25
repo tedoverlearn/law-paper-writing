@@ -2,7 +2,7 @@
 name: law-paper-writing
 description: 协助中文人文社科论文选题、综述、论证、写作、引注核验与返修，按法学、文史阐释、哲学论证及社会科学研究选择方法。用于期刊稿、学位论文、开题、书评和学术案例评析，也可单独审查论证、润色或核注。
 metadata:
-  version: "0.4.4"
+  version: "0.4.5"
 ---
 
 # 中文人文社科论文写作
@@ -28,6 +28,7 @@ metadata:
 | 需求定位、选题、文献综述、提纲或完整写作 | [全过程工作流](references/workflow.md) | 研究简报、分歧表、二级提纲或指定章节 |
 | 判断问题价值、研究贡献或与最接近文献的差别 | [问题与贡献](references/research-contribution.md) | 可讨论的问题、实际增量、材料或论证任务 |
 | 选择研究方法、比较案例、分析数据或外国法 | [研究方法与推论范围](references/methods.md) | 方法说明、可比性表、结论边界 |
+| 写中国大陆民法教义学论文或评析民事案例，需分析给付、返还、违约、侵权、抗辩或举证责任 | [民法请求权分析](references/doctrinal-civil.md) | 请求权检索表、要件事实与抗辩表、结论边界 |
 | 文学细读、概念史、思想史或史料辨析 | [文本与历史解释](references/text-and-history.md) | 原文细节、语境、竞争读法与解释理由 |
 | 哲学、政治理论或伦理评价 | [理论与规范论证](references/theory-and-normative-argument.md) | 论证重建、概念区分、反例与实质理由 |
 | 访谈、田野、质性或混合方法论文 | [质性与混合方法](references/qualitative-and-mixed-methods.md) | 材料分析、主题形成、方法适配与整合判断 |

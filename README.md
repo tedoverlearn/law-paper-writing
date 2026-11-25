@@ -2,7 +2,7 @@
 
 `law-paper-writing` 是一套中文学术写作 Skill。它可以从研究问题进入，也可以单独审查贡献、论证、案例可比性和脚注。法学部分重视法源效力、个案的证明范围和引注位置，文史、哲学与社会科学研究可以调用各自的方法说明。
 
-开发版 **v0.4.4** · [下载已发布的 v0.4.2 安装包](https://github.com/tedoverlearn/law-paper-writing/releases/download/v0.4.2/law-paper-writing-v0.4.2.zip) · [查看 Skill 入口](law-paper-writing/SKILL.md)
+开发版 **v0.4.5** · [下载已发布的 v0.4.2 安装包](https://github.com/tedoverlearn/law-paper-writing/releases/download/v0.4.2/law-paper-writing-v0.4.2.zip) · [查看 Skill 入口](law-paper-writing/SKILL.md)
 
 ## 安装
 
@@ -24,6 +24,7 @@
 
 - **研究设计与贡献。** 比较最接近的研究，给出可检验的增量、二级提纲和各节所需证据。
 - **分析与写作。** 按法学解释、文史细读、哲学论证或社会科学方法推进。遇到反例时，定位它影响的前提或推论。
+- **民法示范。** 逐项检索请求权，核对要件事实、抗辩及证明责任。用合成买卖例检查履行顺序如何改变处理结果。[民法请求权分析](law-paper-writing/references/doctrinal-civil.md)
 - **引注核验与返修。** 把关键主张对应到来源版本和原文位置。材料变化时，可用主张表查找受影响的段落。
 
 [研究方法](law-paper-writing/references/methods.md) · [来源与引注](law-paper-writing/references/sources-and-citations.md) · [论证审查](law-paper-writing/references/argument-and-review.md) · [主张复查](law-paper-writing/references/evidence-maintenance.md)

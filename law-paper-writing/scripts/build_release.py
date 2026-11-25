@@ -23,6 +23,7 @@ RUNTIME_FILES = (
     "references/behavioral-evaluation.md",
     "references/citation-profiles.md",
     "references/claims-and-qualifications.md",
+    "references/doctrinal-civil.md",
     "references/evidence-maintenance.md",
     "references/institutional-history.md",
     "references/long-form-revision.md",
