@@ -37,6 +37,7 @@ RUNTIME_FILES = (
     "references/workflow.md",
     "scripts/audit_docx_footnotes.py",
     "scripts/check_claim_register.py",
+    "scripts/check_manuscript.py",
 )
 LINK_DESTINATION = r"(?:<([^>]+)>|([^\s()]+))"
 INLINE_LINK = re.compile(r"\]\(\s*" + LINK_DESTINATION)

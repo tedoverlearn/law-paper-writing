@@ -2,7 +2,7 @@
 
 `law-paper-writing` 是一套中文学术写作 Skill。它可以从研究问题进入，也可以单独审查贡献、论证、案例可比性和脚注。法学部分重视法源效力、个案的证明范围和引注位置，文史、哲学与社会科学研究可以调用各自的方法说明。
 
-开发版 **v0.4.3** · [下载已发布的 v0.4.2 安装包](https://github.com/tedoverlearn/law-paper-writing/releases/download/v0.4.2/law-paper-writing-v0.4.2.zip) · [查看 Skill 入口](law-paper-writing/SKILL.md)
+开发版 **v0.4.4** · [下载已发布的 v0.4.2 安装包](https://github.com/tedoverlearn/law-paper-writing/releases/download/v0.4.2/law-paper-writing-v0.4.2.zip) · [查看 Skill 入口](law-paper-writing/SKILL.md)
 
 ## 安装
 
@@ -27,6 +27,18 @@
 - **引注核验与返修。** 把关键主张对应到来源版本和原文位置。材料变化时，可用主张表查找受影响的段落。
 
 [研究方法](law-paper-writing/references/methods.md) · [来源与引注](law-paper-writing/references/sources-and-citations.md) · [论证审查](law-paper-writing/references/argument-and-review.md) · [主张复查](law-paper-writing/references/evidence-maintenance.md)
+
+## 稿件交付检查
+
+全稿按硬门禁核对关键命题、引注取得范围、摘要和各章结论强度、待核项及作者授权。[交付前硬门禁](law-paper-writing/references/argument-and-review.md#交付前硬门禁)
+
+只读脚本扫描保留标题、注号与参考文献的 UTF-8 Markdown 或纯文本。返回码 0 为通过、1 为有复读候选、2 为有阻断项或输入无法读取。加 `--check-hedging` 可定位缓冲、连续让步和自谦候选。
+
+```sh
+python -X utf8 law-paper-writing/scripts/check_manuscript.py manuscript.md --check-hedging
+```
+
+法学引注按材料类型收集字段，按实际取得的正式条文和提交要求定稿。[第二版字段表与核验状态](law-paper-writing/references/citation-profiles.md#法学引注手册第二版工作稿字段表)
 
 ## 检查与打包
 
