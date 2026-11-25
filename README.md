@@ -2,7 +2,7 @@
 
 `law-paper-writing` 是一套中文学术写作 Skill。它可以从研究问题进入，也可以单独审查贡献、论证、案例可比性和脚注。法学部分重视法源效力、个案的证明范围和引注位置，文史、哲学与社会科学研究可以调用各自的方法说明。
 
-开发版 **v0.4.6** · [下载已发布的 v0.4.2 安装包](https://github.com/tedoverlearn/law-paper-writing/releases/download/v0.4.2/law-paper-writing-v0.4.2.zip) · [查看 Skill 入口](law-paper-writing/SKILL.md)
+开发版 **v0.4.7** · [下载已发布的 v0.4.2 安装包](https://github.com/tedoverlearn/law-paper-writing/releases/download/v0.4.2/law-paper-writing-v0.4.2.zip) · [查看 Skill 入口](law-paper-writing/SKILL.md)
 
 ## 安装
 
@@ -42,11 +42,17 @@ python -X utf8 law-paper-writing/scripts/check_manuscript.py manuscript.md --che
 
 法学引注按材料类型收集字段，按实际取得的正式条文和提交要求定稿。[第二版字段表与核验状态](law-paper-writing/references/citation-profiles.md#法学引注手册第二版工作稿字段表)
 
+如需核对工作稿和主张表，在正文使用 `〔C01〕` 这样的标记，再运行下面的只读命令。报告列出双向缺项及位置。[编号覆盖检查](law-paper-writing/references/evidence-maintenance.md#核对稿件编号覆盖)
+
+```sh
+python -B law-paper-writing/scripts/check_claim_register.py claims.tsv --check-coverage manuscript.md
+```
+
 ## 检查与打包
 
 15 道合成题可用于比较启用和停用 Skill 的原始回答。两道起草题另做版本盲评，检查判断是否清楚、写法是否回避、证据能支持多强的结论。按原文位置记录失分后，可生成 JSON 对比报告。[行为评测题库与操作步骤](law-paper-writing/evaluations/behavioral/README.md)
 
-在仓库根目录用 Python 3.10 或更新版本运行。
+在仓库根目录用 Python 3.10 或更新版本运行。Word 脚注测试会生成临时 DOCX 包，无需安装 Word。
 
 ```sh
 python law-paper-writing/scripts/build_release.py --check

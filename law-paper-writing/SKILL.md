@@ -2,7 +2,7 @@
 name: law-paper-writing
 description: 协助中文人文社科论文选题、综述、论证、写作、引注核验与返修，按法学、文史阐释、哲学论证及社会科学研究选择方法。用于期刊稿、学位论文、开题、书评和学术案例评析，也可单独审查论证、润色或核注。
 metadata:
-  version: "0.4.6"
+  version: "0.4.7"
 ---
 
 # 中文人文社科论文写作
@@ -39,7 +39,7 @@ metadata:
 | 交付、投稿前查关键命题、引注和结论强度 | [交付前硬门禁](references/argument-and-review.md#交付前硬门禁) · [稿件扫描](scripts/check_manuscript.py) | 门禁核验记录、带稿件位置的待核清单 |
 | 逐句判断限定、让步和缓冲是否有实质作用 | [主张与必要限定](references/claims-and-qualifications.md) | 保留必要限定的主张句 |
 | 检查全文结构、跨章节衔接或大幅压缩 | [长文修订](references/long-form-revision.md) | 反向提纲、概念及主张核对、指定范围的改稿 |
-| 依据、反例或已确认主张变动，需要复查长稿 | [主张与依据变化后的复查](references/evidence-maintenance.md) | 直接受影响的判断及后续复查位置 |
+| 依据、反例或已确认主张变动，或需核对工作稿 C 编号的覆盖 | [主张复查与编号覆盖](references/evidence-maintenance.md) | 受影响的判断、后续复查位置或稿表双向差异 |
 | 投稿、返修、答辩或会议展示 | [投稿、返修与展示](references/publication.md) | 指定提交材料、返修说明或展示稿 |
 | 建立持续写作项目 | [项目记录模板](assets/project-record.md)、[来源卡模板](assets/source-card.md) | 在论文项目中按需复制并填写 |
 | 验收 Skill 的实际作答、比较新旧版本 | [行为评测](references/behavioral-evaluation.md) | 成对原始回答、逐项人工评分与回归报告 |
