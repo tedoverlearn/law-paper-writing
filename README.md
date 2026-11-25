@@ -2,7 +2,7 @@
 
 `law-paper-writing` 是一套中文学术写作 Skill。它可以从研究问题进入，也可以单独审查贡献、论证、案例可比性和脚注。法学部分重视法源效力、个案的证明范围和引注位置，文史、哲学与社会科学研究可以调用各自的方法说明。
 
-当前版本 **v0.4.2** · [下载 ZIP 安装包](https://github.com/tedoverlearn/law-paper-writing/releases/download/v0.4.2/law-paper-writing-v0.4.2.zip) · [查看 Skill 入口](law-paper-writing/SKILL.md)
+开发版 **v0.4.3** · [下载已发布的 v0.4.2 安装包](https://github.com/tedoverlearn/law-paper-writing/releases/download/v0.4.2/law-paper-writing-v0.4.2.zip) · [查看 Skill 入口](law-paper-writing/SKILL.md)
 
 ## 安装
 
@@ -30,12 +30,14 @@
 
 ## 检查与打包
 
+15 道合成题可用于比较启用和停用 Skill 的原始回答。两道起草题另做版本盲评，检查判断是否清楚、写法是否回避、证据能支持多强的结论。按原文位置记录失分后，可生成 JSON 对比报告。[行为评测题库与操作步骤](law-paper-writing/evaluations/behavioral/README.md)
+
 在仓库根目录用 Python 3.10 或更新版本运行。
 
 ```sh
 python law-paper-writing/scripts/build_release.py --check
 python law-paper-writing/scripts/build_release.py --output law-paper-writing.zip
-python -B law-paper-writing/evaluations/test_build_release.py -v
-python -B law-paper-writing/evaluations/test_claim_register.py -v
+python -X utf8 law-paper-writing/evaluations/run_behavioral.py check
+python -B -m unittest discover -s law-paper-writing/evaluations -p "test_*.py" -v
 ```
 
