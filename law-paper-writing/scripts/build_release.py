@@ -30,7 +30,6 @@ RUNTIME_FILES = (
     "references/methods.md",
     "references/publication.md",
     "references/qualitative-and-mixed-methods.md",
-    "references/repository-study.md",
     "references/research-contribution.md",
     "references/sources-and-citations.md",
     "references/text-and-history.md",

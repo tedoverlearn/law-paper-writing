@@ -2,7 +2,7 @@
 
 `law-paper-writing` 是一套中文学术写作 Skill。它可以从研究问题进入，也可以单独审查贡献、论证、案例可比性和脚注。法学部分重视法源效力、个案的证明范围和引注位置，文史、哲学与社会科学研究可以调用各自的方法说明。
 
-开发版 **v0.4.8** · [下载已发布的 v0.4.2 安装包](https://github.com/tedoverlearn/law-paper-writing/releases/download/v0.4.2/law-paper-writing-v0.4.2.zip) · [查看 Skill 入口](law-paper-writing/SKILL.md)
+开发版 **v0.4.14** · [下载已发布的 v0.4.2 安装包](https://github.com/tedoverlearn/law-paper-writing/releases/download/v0.4.2/law-paper-writing-v0.4.2.zip) · [查看 Skill 入口](law-paper-writing/SKILL.md)
 
 ## 安装
 
@@ -18,7 +18,9 @@
 
 > 用 $law-paper-writing 核对脚注 12 至 18。逐条核对版本、页码和正文归因，指出有待取得的原始材料。
 
-> 用 $law-paper-writing 润色这一节。删掉只用于预防质疑的句子，保留会改变结论范围的条件、作者判断和脚注落点。
+> 用 $law-paper-writing 只润色下面一段，保留原判断和脚注落点，只交改稿。三份访谈提到窗口答复前会先核验登记记录〔注 1〕。这并非要证明访谈可以代替现场观察。作者拟用后续观察核对实际办理顺序。
+
+可以核对改稿是否仍把材料写成三份访谈中的陈述，并保留后续观察计划和原脚注落点。
 
 ## 主要功能
 
