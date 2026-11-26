@@ -1,6 +1,6 @@
-# 中文人文社科论文写作 Skill
+# 中文法学论文写作 Skill
 
-`law-paper-writing` 帮助中文法学及人文社科作者选题、论证、写作和返修。可以根据题目起草短论，也可以修订指定段落，保留作者的核心立场和脚注。法学论文可用它核对法源版本、裁判理由及引注，判断材料能支持多强的结论。文史、哲学和社会科学研究可调用各自的方法说明。
+`law-paper-writing` 用于中文法学论文的选题、论证、写作和返修。可以按题起草短论，也可以修订指定段落，保留作者的核心立场和脚注。它还可以核对法源版本、裁判理由及引注，检查材料是否支持正文判断。论文涉及制度史、规范理论或实证研究时，可调用相应的方法说明。
 
 当前版本 **v0.4.18** · [下载 ZIP 安装包](https://github.com/tedoverlearn/law-paper-writing/releases/download/v0.4.18/law-paper-writing-v0.4.18.zip) · [查看更新说明](https://github.com/tedoverlearn/law-paper-writing/releases/tag/v0.4.18) · [查看 Skill 入口](law-paper-writing/SKILL.md)
 
