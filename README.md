@@ -2,7 +2,7 @@
 
 `law-paper-writing` 是一套中文学术写作 Skill。它可以从研究问题进入，也可以单独审查贡献、论证、案例可比性和脚注。法学部分重视法源效力、个案的证明范围和引注位置，文史、哲学与社会科学研究可以调用各自的方法说明。
 
-开发版 **v0.4.7** · [下载已发布的 v0.4.2 安装包](https://github.com/tedoverlearn/law-paper-writing/releases/download/v0.4.2/law-paper-writing-v0.4.2.zip) · [查看 Skill 入口](law-paper-writing/SKILL.md)
+开发版 **v0.4.8** · [下载已发布的 v0.4.2 安装包](https://github.com/tedoverlearn/law-paper-writing/releases/download/v0.4.2/law-paper-writing-v0.4.2.zip) · [查看 Skill 入口](law-paper-writing/SKILL.md)
 
 ## 安装
 
